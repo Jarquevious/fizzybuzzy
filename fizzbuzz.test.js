@@ -31,6 +31,7 @@ test('fizzyBuzzy', () => {
 test('fizzbuzz', () => {
     expect(fb.fizzBuzz(5).count).toBe(5)
     expect(fb.fizzBuzz(5).fizz).toBe(1)
-    expect(fb.fizzBuzz(5).buzz).toBe(1)    
+    expect(fb.fizzBuzz(5).buzz).toBe(1)   
+    expect(fb.fizzBuzz(5).fizzBuzz).toBe(0)    
 })
 
