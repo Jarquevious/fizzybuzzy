@@ -24,10 +24,13 @@ test('fizzyBuzzy', () => {
     expect(fb.fizzyBuzzy(3)).toBe('fizz')
     expect(fb.fizzyBuzzy(5)).toBe('buzz')
     expect(fb.fizzyBuzzy(15)).toBe('fizzbuzz')
+    
+   
 })
 
 test('fizzbuzz', () => {
-    expect(fb.fizzBuzz(15).count).toBe(15)
-    
+    expect(fb.fizzBuzz(5).count).toBe(5)
+    expect(fb.fizzBuzz(5).fizz).toBe(1)
+    expect(fb.fizzBuzz(5).buzz).toBe(0)    
 })
 
